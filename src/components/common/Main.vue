@@ -30,15 +30,16 @@
 </template>
 
 <style scoped>
+a:visited {
+  color: inherit;
+}
+
 a {
+  color: inherit;
   text-decoration: none;
   text-decoration: none;
   position: relative;
   cursor: pointer;
-}
-
-a:visited {
-  color: inherit;
 }
 
 a::before {
