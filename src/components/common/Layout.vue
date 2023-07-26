@@ -1,11 +1,6 @@
-<script setup>
-import { useVantaRings } from '@/components/common/vanta.js';
-
-const { vantaElement } = useVantaRings();
-</script>
+<script setup lang="ts"></script>
 <template>
   <div class="layout-wrapper">
-    <div ref="vantaElement" style="width: 100%; height: 400px"></div>
     <slot></slot>
   </div>
 </template>

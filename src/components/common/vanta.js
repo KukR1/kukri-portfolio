@@ -5,9 +5,9 @@ export function useVantaRings(selector) {
   let vantaInstance = null;
 
   const initVantaRINGS = () => {
-    vantaInstance = VANTA.HALO({
+    vantaInstance = VANTA.TOPOLOGY({
       el: vantaElement.value,
-      color: 0xff9919,
+      color: 0x964e67,
       mouseControls: true,
       touchControls: true,
       gyroControls: false,
