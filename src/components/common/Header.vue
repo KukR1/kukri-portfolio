@@ -8,7 +8,7 @@
     :enter="{ opacity: 1, x: 0, scale: 1 }"
   >
     <div class="greeting">hey,</div>
-    <div class="title">I'm nik danilov👋</div>
+    <div class="title">I'm nik danilov 👋</div>
   </div>
 </template>
 

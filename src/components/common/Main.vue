@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div class="content">
+  <div v-motion-fade class="content">
     <div>
       I'm a software developer, mostly focused on the front-end, but sometimes I
       try some stuff on the backend too. I mostly program in Typescript using
