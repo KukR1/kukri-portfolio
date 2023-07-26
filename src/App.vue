@@ -24,5 +24,4 @@ const { vantaElement } = useVantaRings();
   height: 100%;
   min-height: -webkit-fill-available;
 }
-</
 </style>
