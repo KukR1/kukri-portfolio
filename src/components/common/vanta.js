@@ -1,10 +1,15 @@
 import { onMounted, onBeforeUnmount, ref } from 'vue';
 
-export function useVantaRings(selector) {
+export function useVantaRings() {
   const vantaElement = ref(null);
   let vantaInstance = null;
 
+  const setElementHeight = () => {
+    vantaElement.value.style.height = `${window.innerHeight}px`;
+  };
+
   const initVantaRINGS = () => {
+    setElementHeight();
     vantaInstance = VANTA.TOPOLOGY({
       el: vantaElement.value,
       color: 0x964e67,
@@ -19,6 +24,7 @@ export function useVantaRings(selector) {
   };
 
   onMounted(() => {
+    window.addEventListener('resize', setElementHeight);
     initVantaRINGS();
   });
 
@@ -26,7 +32,9 @@ export function useVantaRings(selector) {
     if (vantaInstance) {
       vantaInstance.destroy();
     }
+    window.removeEventListener('resize', setElementHeight);
   });
+
   return {
     vantaElement
   };
