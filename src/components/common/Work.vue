@@ -8,8 +8,8 @@ import TailwindIcon from '@/assets/icons/TailwindIcon.vue';
 import ReduxIcon from '@/assets/icons/ReduxIcon.vue';
 import MuiIcon from '@/assets/icons/MuiIcon.vue';
 import BootstrapIcon from '@/assets/icons/BootstrapIcon.vue';
-import LaravelIcon from '@/assets/icons/LaravelIcon.vue';
 import Arrow from '../Arrow.vue';
+import LaravelIcon from '@/assets/icons/LaravelIcon.vue';
 import { useTitle } from '@vueuse/core';
 
 useTitle('Work&Bio | Nik Danilov');
@@ -60,9 +60,8 @@ const bio = [
 <template>
   <div
     v-motion
-    :initial="{ opacity: 0, x: 0 }"
+    :initial="{ opacity: 0, x: -100 }"
     :enter="{ opacity: 1, x: 0, scale: 1 }"
-    :delay="200"
     class="work-wrapper"
   >
     <div v-for="item in bio" :key="item.year" class="item-wrapper">
