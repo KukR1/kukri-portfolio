@@ -1,4 +1,3 @@
-<script setup lang="ts"></script>
 <template>
   <div class="layout-wrapper">
     <slot></slot>
@@ -6,7 +5,7 @@
 </template>
 <style lang="scss">
 .layout-wrapper {
-  padding: 5vh 10vw;
+  padding: 8vh 10vw;
   display: flex;
   flex-direction: column;
   gap: 2rem;

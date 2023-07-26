@@ -2,7 +2,6 @@
 import { useDark } from '@vueuse/core';
 import ThemeSwitch from './components/Theme/ThemeSwitch.vue';
 import HomeView from './views/HomeView.vue';
-
 import { useVantaRings } from '@/components/common/vanta.js';
 
 const { vantaElement } = useVantaRings();
