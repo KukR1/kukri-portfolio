@@ -8,8 +8,10 @@ import { ref } from 'vue';
 
 <template>
   <Layout>
-    <Header />
-    <Main />
+    <ThemeSwitch>
+      <Header />
+      <Main />
+    </ThemeSwitch>
   </Layout>
 </template>
 <style scoped lang="scss">
