@@ -8,7 +8,7 @@ const { vantaElement } = useVantaRings();
 </script>
 
 <template>
-  <div ref="vantaElement" style="width: 100vw; height: 100vh">
+  <div ref="vantaElement" style="width: 100vw; height: 100%">
     <div class="body-wrapper">
       <HomeView />
     </div>

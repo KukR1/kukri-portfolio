@@ -4,12 +4,11 @@ export function useVantaRings() {
   const vantaElement = ref(null);
   let vantaInstance = null;
 
-  const setElementHeight = () => {
+  const updateHeight = () => {
     vantaElement.value.style.height = `${window.innerHeight}px`;
   };
 
   const initVantaRINGS = () => {
-    setElementHeight();
     vantaInstance = VANTA.TOPOLOGY({
       el: vantaElement.value,
       color: 0x964e67,
@@ -24,7 +23,8 @@ export function useVantaRings() {
   };
 
   onMounted(() => {
-    window.addEventListener('resize', setElementHeight);
+    updateHeight();
+    window.addEventListener('resize', updateHeight);
     initVantaRINGS();
   });
 
@@ -32,7 +32,7 @@ export function useVantaRings() {
     if (vantaInstance) {
       vantaInstance.destroy();
     }
-    window.removeEventListener('resize', setElementHeight);
+    window.removeEventListener('resize', updateHeight);
   });
 
   return {
