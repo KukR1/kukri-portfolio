@@ -4,7 +4,7 @@
   <div v-motion-fade class="content">
     <div>
       I'm a software developer, mostly focused on the front-end, but sometimes I
-      try some stuff on the backend too. I mostly program in Typescript using
+      try some stuff on the back-end too. I mostly program in Typescript using
       React, NextJS and Vue. Based in the Netherlands at the moment and working
       at
       <a href="https://www.tjip.com/en/home" target="_blank"> TJIP</a>
