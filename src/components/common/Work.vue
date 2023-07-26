@@ -69,7 +69,7 @@ const bio = [
 
   .desc {
     a:visited {
-      color: inherit;
+      color: rgb(61, 159, 220);
     }
 
     font-weight: 400;
