@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup>
 import { useVantaRings } from '@/components/common/vanta.js';
 
 const { vantaElement } = useVantaRings();
