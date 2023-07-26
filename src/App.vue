@@ -8,11 +8,19 @@ const { vantaElement } = useVantaRings();
 </script>
 
 <template>
-  <div ref="vantaElement" style="width: 100vw; height: 100%">
+  <div ref="vantaElement" class="fullscreen-vanta">
     <div class="body-wrapper">
       <HomeView />
     </div>
   </div>
 </template>
 
-<style></style>
+<style scoped>
+.fullscreen-vanta {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+</style>
