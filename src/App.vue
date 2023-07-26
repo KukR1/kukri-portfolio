@@ -17,10 +17,12 @@ const { vantaElement } = useVantaRings();
 
 <style scoped>
 .fullscreen-vanta {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
+  min-height: -webkit-fill-available;
 }
+</
 </style>
