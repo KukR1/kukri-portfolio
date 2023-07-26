@@ -40,39 +40,55 @@ const bio = [
 </script>
 
 <template>
-  <div class="wrapper" v-for="item in bio" :key="item.year">
-    <div class="year">{{ item.year }}</div>
-    <div class="desc">
-      <span> {{ item.description }}</span>
-      <a
-        v-if="item.link"
-        :href="item.link"
-        target="_blank"
-        rel="noopener noreferrer"
-        ><Arrow
-      /></a>
+  <div
+    v-motion
+    :initial="{ opacity: 0, x: 0 }"
+    :enter="{ opacity: 1, x: 0, scale: 1 }"
+    :delay="200"
+    class="work-wrapper"
+  >
+    <div v-for="item in bio" :key="item.year" class="item-wrapper">
+      <div class="year">{{ item.year }}</div>
+      <div class="desc">
+        <span> {{ item.description }}</span>
+        <a
+          v-if="item.link"
+          :href="item.link"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><Arrow
+        /></a>
+      </div>
     </div>
   </div>
 </template>
 
 <style scoped lang="scss">
-.wrapper {
+.work-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.item-wrapper {
   display: flex;
   font-size: calc(1.2rem + 0.2vw);
   flex-direction: row;
   align-items: start;
   width: 60vw;
+  gap: 2rem;
 
   .year {
-    font-weight: 500;
+    font-weight: 600;
   }
 
   .desc {
     a:visited {
       color: rgb(61, 159, 220);
     }
+    span {
+      font-weight: 400;
+    }
 
-    font-weight: 400;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -81,7 +97,7 @@ const bio = [
 }
 
 @media (max-width: 1366px) {
-  .wrapper {
+  .item-wrapper {
     width: 80vw;
   }
 }
