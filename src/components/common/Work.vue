@@ -50,7 +50,7 @@ const bio = [
   },
   {
     year: 2023,
-    description: 'Worked at "TJIP", Netherlands',
+    description: 'Working at "TJIP", Netherlands',
     link: 'https://www.tjip.com/en/home',
     tech: [VueIcon, TSIcon, SassIcon]
   }
