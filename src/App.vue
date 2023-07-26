@@ -1,15 +1,14 @@
 <script setup lang="ts">
 import { useDark } from '@vueuse/core';
-import ThemeSwitch from './components/Theme/ThemeSwitch.vue';
-import HomeView from './views/HomeView.vue';
+import Layout from './components/common/Layout.vue';
 
 const isDark = useDark();
 </script>
 
 <template>
-  <div class="body-wrapper">
-    <HomeView />
-  </div>
+  <Layout>
+    <router-view />
+  </Layout>
 </template>
 
 <style></style>
