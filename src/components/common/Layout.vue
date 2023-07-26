@@ -18,10 +18,6 @@ const route = useRoute();
   </div>
 </template>
 <style lang="scss">
-a:visited {
-  color: inherit;
-}
-
 .layout-wrapper {
   padding: 8vh 10vw;
   display: flex;

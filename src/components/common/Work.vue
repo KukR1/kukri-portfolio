@@ -56,9 +56,6 @@ const bio = [
 </template>
 
 <style scoped lang="scss">
-a:visited {
-  color: inherit;
-}
 .wrapper {
   display: flex;
   font-size: calc(1.2rem + 0.2vw);

@@ -30,10 +30,6 @@
 </template>
 
 <style scoped>
-a:visited {
-  color: inherit;
-}
-
 a {
   color: inherit;
   text-decoration: none;
