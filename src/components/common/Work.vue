@@ -1,4 +1,14 @@
 <script setup lang="ts">
+import ReactIcon from '@/assets/icons/ReactIcon.vue';
+import TSIcon from '@/assets/icons/TSIcon.vue';
+import JSIcon from '@/assets/icons/JSIcon.vue';
+import VueIcon from '@/assets/icons/VueIcon.vue';
+import SassIcon from '@/assets/icons/SassIcon.vue';
+import TailwindIcon from '@/assets/icons/TailwindIcon.vue';
+import ReduxIcon from '@/assets/icons/ReduxIcon.vue';
+import MuiIcon from '@/assets/icons/MuiIcon.vue';
+import BootstrapIcon from '@/assets/icons/BootstrapIcon.vue';
+import LaravelIcon from '@/assets/icons/LaravelIcon.vue';
 import Arrow from '../Arrow.vue';
 
 const bio = [
@@ -14,27 +24,32 @@ const bio = [
   {
     year: 2020,
     description: 'Intern at "Trippers.app", Monaco - Remote',
-    link: 'https://www.linkedin.com/company/trippers-app/'
+    link: 'https://www.linkedin.com/company/trippers-app/',
+    tech: [ReactIcon, JSIcon]
   },
   {
     year: 2021,
     description: 'Worked at "Escape Game Over", Athens - Remote',
-    link: 'https://escapegameover.com/'
+    link: 'https://escapegameover.com/',
+    tech: [LaravelIcon, JSIcon, BootstrapIcon]
   },
   {
     year: 2022,
     description: 'Worked at "Khyria", US - Remote',
-    link: 'https://www.linkedin.com/company/khyria/'
+    link: 'https://www.linkedin.com/company/khyria/',
+    tech: [ReactIcon, TSIcon, MuiIcon]
   },
   {
     year: 2022,
     description: 'Worked at "Leaflets.io", Netherlands',
-    link: 'http://www.leaflets.io'
+    link: 'http://www.leaflets.io',
+    tech: [ReactIcon, TSIcon, TailwindIcon, ReduxIcon]
   },
   {
     year: 2023,
     description: 'Worked at "TJIP", Netherlands',
-    link: 'https://www.tjip.com/en/home'
+    link: 'https://www.tjip.com/en/home',
+    tech: [VueIcon, TSIcon, SassIcon]
   }
 ];
 </script>
@@ -50,14 +65,24 @@ const bio = [
     <div v-for="item in bio" :key="item.year" class="item-wrapper">
       <div class="year">{{ item.year }}</div>
       <div class="desc">
-        <span> {{ item.description }}</span>
-        <a
-          v-if="item.link"
-          :href="item.link"
-          target="_blank"
-          rel="noopener noreferrer"
-          ><Arrow
-        /></a>
+        <div class="desc-wrapper">
+          <span> {{ item.description }}</span>
+          <a
+            v-if="item.link"
+            :href="item.link"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><Arrow
+          /></a>
+        </div>
+        <div class="tech-stack">
+          <component
+            v-for="(tech, index) in item.tech"
+            :key="index"
+            :is="tech"
+            class="tech-icon"
+          />
+        </div>
       </div>
     </div>
   </div>
@@ -90,9 +115,26 @@ const bio = [
     }
 
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: column;
+    align-items: start;
     gap: 0.5rem;
+  }
+  .desc-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    align-items: center;
+  }
+  .tech-stack {
+    display: flex;
+    flex-direction: row;
+    gap: 0.3rem;
+    align-items: center;
+  }
+  .tech-icon {
+    background-color: inherit;
+    padding: 0.2rem;
+    border-radius: 5px;
   }
 }
 
