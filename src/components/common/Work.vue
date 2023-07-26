@@ -68,6 +68,10 @@ const bio = [
   }
 
   .desc {
+    a:visited {
+      color: inherit;
+    }
+
     font-weight: 400;
     display: flex;
     flex-direction: row;
