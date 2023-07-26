@@ -20,7 +20,7 @@ import VueWriter from 'vue-writer';
       :start="1000"
       :iterations="1"
       class="title"
-      :array="['I\'m nik danilov.']"
+      :array="['i\'m nik danilov.']"
     />
   </div>
 </template>
@@ -40,6 +40,7 @@ $cursor: rgba(157, 157, 157, 0.654);
   gap: 2rem;
 }
 .is-typed.greeting {
+  font-weight: 600;
   font-size: calc(5rem + 0.2vw);
 }
 .is-typed.title {

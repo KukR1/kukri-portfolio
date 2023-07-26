@@ -62,6 +62,7 @@ a:hover::before {
   line-height: 2.2rem;
   display: flex;
   flex-direction: column;
+  font-weight: 300;
   gap: 2rem;
   width: 50vw;
   font-size: calc(1.2rem + 0.4vw);
