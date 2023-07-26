@@ -10,6 +10,9 @@ import MuiIcon from '@/assets/icons/MuiIcon.vue';
 import BootstrapIcon from '@/assets/icons/BootstrapIcon.vue';
 import LaravelIcon from '@/assets/icons/LaravelIcon.vue';
 import Arrow from '../Arrow.vue';
+import { useTitle } from '@vueuse/core';
+
+useTitle('Work&Bio | Nik Danilov');
 
 const bio = [
   {
