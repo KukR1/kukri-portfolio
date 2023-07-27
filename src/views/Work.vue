@@ -8,8 +8,8 @@ import TailwindIcon from '@/assets/icons/TailwindIcon.vue';
 import ReduxIcon from '@/assets/icons/ReduxIcon.vue';
 import MuiIcon from '@/assets/icons/MuiIcon.vue';
 import BootstrapIcon from '@/assets/icons/BootstrapIcon.vue';
-import Arrow from '../Arrow.vue';
 import LaravelIcon from '@/assets/icons/LaravelIcon.vue';
+import Arrow from '@/components/Arrow.vue';
 import { useTitle } from '@vueuse/core';
 
 useTitle('Work&Bio | Nik Danilov');
