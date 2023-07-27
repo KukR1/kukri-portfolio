@@ -60,8 +60,9 @@ const bio = [
 <template>
   <div
     v-motion
-    :initial="{ opacity: 0, x: -100 }"
-    :enter="{ opacity: 1, x: 0, scale: 1 }"
+    :initial="{ opacity: 0 }"
+    :enter="{ opacity: 1, scale: 1 }"
+    :delay="100"
     class="work-wrapper"
   >
     <div v-for="item in bio" :key="item.year" class="item-wrapper">
