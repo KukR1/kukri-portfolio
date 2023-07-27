@@ -144,6 +144,7 @@ const bio = [
 @media (max-width: 1366px) {
   .item-wrapper {
     width: 80vw;
+    gap: 1rem;
   }
 }
 </style>

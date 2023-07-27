@@ -44,7 +44,7 @@ $cursor: rgba(157, 157, 157, 0.654);
   font-size: calc(5rem + 0.2vw);
 }
 .is-typed.title {
-  font-size: calc(3rem + 0.2vw);
+  font-size: calc(2.2rem + 0.2vw);
 }
 .is-typed.greeting span.cursor {
   display: inline-block;
