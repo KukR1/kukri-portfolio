@@ -67,7 +67,7 @@ const bio = [
   >
     <div v-for="item in bio" :key="item.year" class="item-wrapper">
       <div class="year">{{ item.year }}</div>
-      |
+      <span class="seperator">|</span>
       <div class="desc">
         <div class="desc-wrapper">
           <span> {{ item.description }}</span>
@@ -146,6 +146,21 @@ const bio = [
   .item-wrapper {
     width: 80vw;
     gap: 1rem;
+  }
+}
+@media (max-width: 768px) {
+  .item-wrapper {
+    width: 70vw;
+    flex-direction: column;
+    gap: 0.5rem;
+
+    .year {
+      text-decoration: underline;
+    }
+
+    .seperator {
+      display: none;
+    }
   }
 }
 </style>
