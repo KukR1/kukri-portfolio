@@ -66,6 +66,7 @@ const bio = [
   >
     <div v-for="item in bio" :key="item.year" class="item-wrapper">
       <div class="year">{{ item.year }}</div>
+      |
       <div class="desc">
         <div class="desc-wrapper">
           <span> {{ item.description }}</span>
@@ -94,7 +95,7 @@ const bio = [
 .work-wrapper {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1.5rem;
 }
 .item-wrapper {
   display: flex;
