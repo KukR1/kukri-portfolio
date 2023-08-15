@@ -9,8 +9,8 @@ import ReduxIcon from '@/assets/icons/ReduxIcon.vue';
 import MuiIcon from '@/assets/icons/MuiIcon.vue';
 import BootstrapIcon from '@/assets/icons/BootstrapIcon.vue';
 import LaravelIcon from '@/assets/icons/LaravelIcon.vue';
-import Arrow from '@/components/Arrow.vue';
 import { useTitle } from '@vueuse/core';
+import ArrowIcon from '@/components/ArrowIcon.vue';
 
 useTitle('Work&Bio | Nik Danilov');
 
@@ -76,8 +76,9 @@ const bio = [
             :href="item.link"
             target="_blank"
             rel="noopener noreferrer"
-            ><Arrow
-          /></a>
+          >
+            <ArrowIcon />
+          </a>
         </div>
         <div class="tech-stack">
           <component
