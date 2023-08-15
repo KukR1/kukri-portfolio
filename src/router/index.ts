@@ -1,6 +1,6 @@
-import { createRouter, createWebHistory } from 'vue-router';
 import HomeView from '@/views/HomeView.vue';
-import Work from '@/views/Work.vue';
+import WorkView from '@/views/WorkView.vue';
+import { createRouter, createWebHistory } from 'vue-router';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -14,7 +14,7 @@ const router = createRouter({
     {
       path: '/work-bio',
       name: 'work-bio',
-      component: Work,
+      component: WorkView,
       meta: { title: 'Nik Danilov - Work&Bio' }
     }
   ]
