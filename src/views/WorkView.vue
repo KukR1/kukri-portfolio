@@ -39,7 +39,7 @@ const bio = [
   {
     year: 2022,
     description: 'Worked at "Khyria", US - Remote',
-    link: 'https://www.linkedin.com/company/khyria/',
+    link: 'https://www.khyria.com/',
     tech: [ReactIcon, TSIcon, MuiIcon]
   },
   {
@@ -169,4 +169,5 @@ const bio = [
       display: none;
     }
   }
-}</style>
+}
+</style>
