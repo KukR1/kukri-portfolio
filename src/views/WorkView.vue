@@ -20,9 +20,9 @@ const bio = [
     description: 'Born in Dneproderzhinsk, Ukraine'
   },
   {
-    year: 2019,
+    year: 2020,
     description:
-      "Completed the Bachelor's Program in London Metropolitan University as a Computer Scientist"
+      "Completed my Bachelor's degree in Computer Science at London Metropolitan University, UK"
   },
   {
     year: 2020,
