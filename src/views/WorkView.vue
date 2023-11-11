@@ -51,7 +51,7 @@ const bio = [
   {
     year: 2023,
     description: 'Working at "TJIP", Netherlands',
-    link: 'https://www.tjip.com/en/home',
+    link: 'https://www.tjip.com/',
     tech: [VueIcon, TSIcon, SassIcon]
   }
 ];
@@ -99,6 +99,7 @@ const bio = [
   flex-direction: column;
   gap: 1.5rem;
 }
+
 .item-wrapper {
   display: flex;
   font-size: calc(1.2rem + 0.2vw);
@@ -115,6 +116,7 @@ const bio = [
     a:visited {
       color: rgb(61, 159, 220);
     }
+
     span {
       font-weight: 400;
     }
@@ -124,18 +126,21 @@ const bio = [
     align-items: start;
     gap: 0.5rem;
   }
+
   .desc-wrapper {
     display: flex;
     flex-direction: row;
     gap: 0.5rem;
     align-items: center;
   }
+
   .tech-stack {
     display: flex;
     flex-direction: row;
     gap: 0.3rem;
     align-items: center;
   }
+
   .tech-icon {
     background-color: inherit;
     padding: 0.2rem;
@@ -149,6 +154,7 @@ const bio = [
     gap: 1rem;
   }
 }
+
 @media (max-width: 768px) {
   .item-wrapper {
     width: 70vw;
@@ -163,5 +169,4 @@ const bio = [
       display: none;
     }
   }
-}
-</style>
+}</style>
