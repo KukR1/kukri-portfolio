@@ -13,10 +13,8 @@
 
     <div>
       You can check my work on
-      <a href="https://github.com/KukR1" target="_blank">GitHub</a> where my
-      most repos are in Typescript 🥱
-      <br />
-      Or let's connect through
+      <a href="https://github.com/KukR1" target="_blank">GitHub</a> 🥱,
+      or let's connect through
       <a href="https://www.linkedin.com/in/mdanilov96/" target="_blank"
         >LinkedIn</a
       >
@@ -54,6 +52,7 @@ a:hover::before {
   bottom: 0;
   height: 90%;
 }
+
 .content {
   line-height: 2.2rem;
   display: flex;
