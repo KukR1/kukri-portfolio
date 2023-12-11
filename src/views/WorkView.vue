@@ -44,8 +44,8 @@ const bio = [
   },
   {
     year: 2022,
-    description: 'Worked at "Leaflets.io", Netherlands',
-    link: 'http://www.leaflets.io',
+    description: 'Worked at "Anlytic", Netherlands',
+    link: 'https://www.anlytic.com/',
     tech: [ReactIcon, TSIcon, TailwindIcon, ReduxIcon]
   },
   {
