@@ -2,9 +2,25 @@
 import { useDark, useToggle } from '@vueuse/core';
 import SunButton from './SunButton.vue';
 import DarkButton from './DarkButton.vue';
+import { watch } from 'vue';
 
 const isDark = useDark();
 const toggleDark = useToggle(isDark);
+
+const updateThemeColor = (isDarkMode: boolean) => {
+  const color = isDarkMode ? '#16171d' : '#fff';
+  const metaThemeColor = document.querySelector('meta[name=theme-color]');
+
+  if (metaThemeColor) {
+    metaThemeColor.setAttribute('content', color);
+  }
+};
+
+watch(isDark, (newVal) => {
+  updateThemeColor(newVal);
+});
+
+updateThemeColor(isDark.value);
 </script>
 
 <template>
