@@ -2,7 +2,7 @@
 import { useDark, useToggle } from '@vueuse/core';
 import SunButton from './SunButton.vue';
 import DarkButton from './DarkButton.vue';
-import { watch } from 'vue';
+import { onBeforeMount, watch } from 'vue';
 
 const isDark = useDark();
 const toggleDark = useToggle(isDark);
@@ -21,6 +21,10 @@ watch(isDark, (newVal) => {
 });
 
 updateThemeColor(isDark.value);
+
+onBeforeMount(() => {
+  updateThemeColor(isDark.value);
+});
 </script>
 
 <template>
