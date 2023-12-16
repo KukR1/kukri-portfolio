@@ -13,8 +13,8 @@
 
     <div>
       You can check my work on
-      <a href="https://github.com/KukR1" target="_blank">GitHub</a> 🥱,
-      or let's connect through
+      <a href="https://github.com/KukR1" target="_blank">GitHub</a> 🥱, or let's
+      connect through
       <a href="https://www.linkedin.com/in/mdanilov96/" target="_blank"
         >LinkedIn</a
       >
