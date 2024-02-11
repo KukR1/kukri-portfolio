@@ -7,7 +7,7 @@
       try some stuff on the back-end too. I mostly program in Typescript using
       React, NextJS and Vue. Based in the Netherlands at the moment and working
       at
-      <a href="https://www.tjip.com/en/home" target="_blank"> TJIP</a>
+      <a href="https://www.tjip.com/" target="_blank"> TJIP</a>
       as a front-end engineer.
     </div>
 
