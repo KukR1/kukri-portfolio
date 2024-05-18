@@ -12,6 +12,7 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "@vercel/analytics": "^1.2.2",
     "@vueuse/core": "^10.2.1",
     "@vueuse/motion": "^2.0.0",
     "pinia": "^2.1.3",
