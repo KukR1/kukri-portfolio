@@ -1,14 +1,11 @@
-<script setup lang="ts"></script>
-
 <template>
   <div v-motion-fade class="content">
     <div>
-      I'm a software developer, mostly focused on the front-end, but sometimes I
+      I'm a software engineer, mostly focused on the front-end, but sometimes I
       try some stuff on the back-end too. I mostly program in Typescript using
-      React, NextJS and Vue. Based in the Netherlands at the moment and working
-      at
+      React, Next and Vue. Based in the Netherlands at the moment and working at
       <a href="https://www.tjip.com/" target="_blank"> TJIP</a>
-      as a front-end engineer.
+      as a front-end developer.
     </div>
 
     <div>

@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import Header from '@/components/common/Header.vue';
-import Main from '@/components/common/Main.vue';
+import Header from '@/components/common/MainHeader.vue';
+import Main from '@/components/common/MainContent.vue';
 import { useTitle } from '@vueuse/core';
 
 useTitle('Home | Nik Danilov');
