@@ -1,12 +1,12 @@
 <script setup lang="ts">
-import Header from '@/components/common/MainHeader.vue';
-import Main from '@/components/common/MainContent.vue';
+import MainContent from '@/components/common/MainContent.vue';
+import MainHeader from '@/components/common/MainHeader.vue';
 import { useTitle } from '@vueuse/core';
 
 useTitle('Home | Nik Danilov');
 </script>
 
 <template>
-  <Header />
-  <Main />
+  <MainHeader />
+  <MainContent />
 </template>
