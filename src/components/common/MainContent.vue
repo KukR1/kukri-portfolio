@@ -5,7 +5,7 @@
       try some stuff on the back-end too. I mostly program in Typescript using
       React, Next and Vue. Based in the Netherlands at the moment and working at
       <a href="https://www.tjip.com/" target="_blank"> TJIP</a>
-      as a front-end developer.
+      as a front-end developer
     </div>
 
     <div>
@@ -19,7 +19,7 @@
     </div>
     <div>
       In my free time and outside of programming, I love to play football, video
-      games, walks and drinking coffee ☕️
+      games and walks ☕️
     </div>
   </div>
 </template>
