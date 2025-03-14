@@ -20,7 +20,7 @@ import VueWriter from 'vue-writer';
       :start="1000"
       :iterations="1"
       class="title"
-      :array="['i\'m nik danilov.']"
+      :array="['i\'m nikita danilov.']"
     />
   </div>
 </template>
