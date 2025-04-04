@@ -44,13 +44,13 @@ $secondary: #16171d;
   color: $primary;
 
   ::selection {
-    background: #fff25d70; /* your preferred color */
+    background: #fff25d71; /* your preferred color */
     color: $primary; /* text color */
   }
 }
 
 ::selection {
-  background: #fff25d70; /* your preferred color */
+  background: #fff25d71; /* your preferred color */
   color: $secondary; /* text color */
 }
 
