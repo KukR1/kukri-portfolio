@@ -1,5 +1,11 @@
 <template>
-  <div v-motion-fade class="content">
+  <div
+    v-motion
+    :initial="{ opacity: 0 }"
+    :enter="{ opacity: 1 }"
+    :delay="200"
+    class="content"
+  >
     <div>
       I'm a software engineer, mostly focused on the front-end, but sometimes I
       try some stuff on the back-end too. I mostly program in Typescript using
