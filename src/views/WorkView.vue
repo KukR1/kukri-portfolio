@@ -39,7 +39,7 @@ const bio = [
   {
     year: 2022,
     description: 'Worked at "Khyria", US - Remote',
-    link: 'https://www.khyria.com/',
+    link: 'https://www.linkedin.com/company/khyria/',
     tech: [ReactIcon, TSIcon, MuiIcon]
   },
   {
@@ -60,8 +60,8 @@ const bio = [
 <template>
   <div
     v-motion
-    :initial="{ opacity: 0 }"
-    :enter="{ opacity: 1, scale: 1 }"
+    :initial="{ opacity: 0, x: 100 }"
+    :enter="{ opacity: 1, x: 0 }"
     :delay="100"
     class="work-wrapper"
   >
