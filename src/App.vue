@@ -3,9 +3,9 @@ import MainLayout from './components/common/MainLayout.vue';
 </script>
 
 <template>
-  <MainLayout>
-    <router-view />
-  </MainLayout>
+   <MainLayout>
+      <router-view />
+   </MainLayout>
 </template>
 
 <style></style>

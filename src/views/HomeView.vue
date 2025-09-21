@@ -7,6 +7,6 @@ useTitle('Home | Nik Danilov');
 </script>
 
 <template>
-  <MainHeader />
-  <MainContent />
+   <MainHeader />
+   <MainContent />
 </template>
