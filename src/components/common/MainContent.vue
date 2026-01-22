@@ -1,11 +1,6 @@
+<script setup lang="ts"></script>
 <template>
-   <div
-      v-motion
-      :initial="{ opacity: 0 }"
-      :enter="{ opacity: 1 }"
-      :delay="200"
-      class="content"
-   >
+   <div v-motion-fade class="content">
       <div>
          I'm a software engineer, mostly focused on the front-end, but sometimes
          I try some stuff on the back-end too. I mostly program in Typescript
@@ -14,6 +9,7 @@
          <a href="https://www.tjip.com/" target="_blank"> TJIP</a>
          as a front-end engineer.
       </div>
+
       <div>
          You can check my work on
          <a href="https://github.com/KukR1" target="_blank">GitHub</a>, or let's

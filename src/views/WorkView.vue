@@ -3,7 +3,6 @@ import ReactIcon from '@/assets/icons/ReactIcon.vue';
 import TSIcon from '@/assets/icons/TSIcon.vue';
 import JSIcon from '@/assets/icons/JSIcon.vue';
 import VueIcon from '@/assets/icons/VueIcon.vue';
-import SassIcon from '@/assets/icons/SassIcon.vue';
 import TailwindIcon from '@/assets/icons/TailwindIcon.vue';
 import ReduxIcon from '@/assets/icons/ReduxIcon.vue';
 import MuiIcon from '@/assets/icons/MuiIcon.vue';
@@ -11,8 +10,9 @@ import BootstrapIcon from '@/assets/icons/BootstrapIcon.vue';
 import LaravelIcon from '@/assets/icons/LaravelIcon.vue';
 import { useTitle } from '@vueuse/core';
 import ArrowIcon from '@/components/ArrowIcon.vue';
+import DotNet from '@/assets/icons/DotNet.vue';
 
-useTitle('Work&Bio | Nik Danilov');
+useTitle('Work & Bio | Nik Danilov');
 
 const bio = [
    {
@@ -39,7 +39,7 @@ const bio = [
    {
       year: 2022,
       description: 'Worked at "Khyria", US - Remote',
-      link: 'https://www.linkedin.com/company/khyria/',
+      link: 'https://www.khyria.com/',
       tech: [ReactIcon, TSIcon, MuiIcon]
    },
    {
@@ -52,7 +52,7 @@ const bio = [
       year: 2023,
       description: 'Working at "TJIP", Netherlands',
       link: 'https://www.tjip.com/',
-      tech: [VueIcon, TSIcon, SassIcon]
+      tech: [VueIcon, TSIcon, TailwindIcon, DotNet]
    }
 ];
 </script>
