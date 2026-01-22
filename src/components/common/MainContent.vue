@@ -9,22 +9,22 @@
       <div>
          I'm a software engineer, mostly focused on the front-end, but sometimes
          I try some stuff on the back-end too. I mostly program in Typescript
-         using React, Next and Vue. Based in the Netherlands at the moment and
+         with React, Next and Vue. Based in the Netherlands at the moment and
          working at
          <a href="https://www.tjip.com/" target="_blank"> TJIP</a>
-         as a front-end developer
+         as a front-end engineer.
       </div>
       <div>
          You can check my work on
-         <a href="https://github.com/KukR1" target="_blank">GitHub</a> 🥱, or
-         let's connect through
+         <a href="https://github.com/KukR1" target="_blank">GitHub</a>, or let's
+         connect through
          <a href="https://www.linkedin.com/in/mdanilov96/" target="_blank"
             >LinkedIn</a
          >
          for possible collaborations 🤗
       </div>
       <div>
-         In my free time and outside of programming, I love to play football,
+         In my free time and outside of programming, I love playing football,
          video games and walks ☕️
       </div>
    </div>
