@@ -17,7 +17,7 @@ useTitle('Work&Bio | Nik Danilov');
 const bio = [
    {
       year: 1996,
-      description: 'Born in Dneproderzhinsk, Ukraine'
+      description: 'Born in Камянське, Ukraine'
    },
    {
       year: 2020,
