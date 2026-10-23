@@ -50,14 +50,18 @@ $cursor: rgba(157, 157, 157, 0.654);
    display: inline-block;
    width: 3px;
    background-color: $cursor;
-   animation: blink 1s infinite, hide 0.5s 300ms forwards step-end;
+   animation:
+      blink 1s infinite,
+      hide 0.5s 300ms forwards step-end;
 }
 
 .is-typed.title span.cursor {
    display: inline-block;
    width: 3px;
    background-color: $cursor;
-   animation: hide-initially 1s forwards, blink 1s 1s infinite,
+   animation:
+      hide-initially 1s forwards,
+      blink 1s 1s infinite,
       hide 4.5s 300ms forwards step-end;
 }
 @keyframes hide-initially {
